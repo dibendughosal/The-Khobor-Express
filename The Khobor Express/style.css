@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+header{
+    text-align: center;
+    padding-top: 40px ;
+    line-height: 2;
+    height: 200px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+header h1{
+    font-weight: 800;
+    font-size: 2.8em;
+}
+header a{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 50px;
+}
+header a:hover{
+    font-weight: bold;
+    font-size: 1.1em;
+}
+.leftsidebar{
+    width: 65%;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 10px;
+    position: relative;
+}
+.leftsidebar h2{
+    padding-left: 10px;
+    color: chocolate;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+.rightsidebar{
+    width: 30%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-left: 1px solid black;
+    margin: 10px;
+    padding-left: 15px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+}
+.rightsidebar h2{
+    padding-left: 10px;
+    padding-top: 5px;
+    color: rgb(5, 2, 92);
+    font-family: 'Times New Roman', Times, serif;
+
+    
+}
+.rightsidebar img{
+    height: 200px;
+    width: 320px;
+    padding-left: 10px;
+}
+.leftsidebar img{
+    height: 300px;
+    width: 90%;
+}
+.promo button{
+    color: white;
+    background-color: red;
+    font-size: 14px;
+    text-decoration: none;
+    border:none;
+    cursor: pointer;
+    padding: 14px 20px;
+    width: 100%;
+}
+.promo{
+    position: fixed;
+    bottom: 0;
+    width: 500px;
+}
+.promo button:hover{
+    opacity: 0.8;
+}
+.alert button{
+    background-color: chocolate;
+    color:white;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+} 
